@@ -1,0 +1,55 @@
+body {
+    margin: 10px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 30px 80px 30px;
+}
+
+#offset-text {
+    font-size: 45px;
+    text-align: center;
+    margin: 1px 5px;
+}
+
+#div-h2-mais-input {
+    text-align: center;
+}
+
+#offset {
+    height: 40px;
+    width: 310px;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px 15px 20px 15px;
+}
+
+.titulo-caixas {
+    font-size: 45px;
+    margin: 13px 10px 13px 100px;
+}
+
+#div-titulo-caixa-original, #div-titulo-caixa-cifrada {
+    display: inline-block;
+    margin: 20px;
+}
+
+#div-titulo-caixa-original {
+    float: left;
+    margin-left: 150px;
+}
+
+#div-titulo-caixa-cifrada {
+    float: right;
+    margin-right: 150px;
+}
+
+#mensagem-original, #mensagem-cifrada {
+    padding: 15px;
+    font-size: 25px;
+    resize: none;
+}

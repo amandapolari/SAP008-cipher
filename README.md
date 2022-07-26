@@ -71,4 +71,4 @@ Esse programa foi construído com:
 
 ## 6. Processo de desenvolvimento
 
-[Clique aqui para saber mais](/SAP008-cipher/desenvolvimento.md)
+[Clique aqui para saber mais](./desenvolvimento.md)

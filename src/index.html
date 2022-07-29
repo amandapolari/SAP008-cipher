@@ -3,43 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Criptogracinha</title>
   </head>
   <body>
-    <h1>Criptogracinha</h1>
-    <div id="div-h2-mais-input">
-      <h2 id="offset-text">Offset</h2>
-      <input type="number" id="offset" placeholder="Digite um número. Ex: 10" />
-    </div>
-    <div id="div-titulo-caixa-original">
-      <h2 class="titulo-caixas">Mensagem Original</h2>
-      <textarea
-        name=""
-        id="mensagem-original"
-        cols="30"
-        rows="10"
-        style="width: 524px; height: 223px"
-      ></textarea>
-    </div>
-    <div id="div-titulo-caixa-cifrada">
-      <h2 class="titulo-caixas">Mensagem Cifrada</h2>
-      <textarea
-        name=""
-        id="mensagem-cifrada"
-        cols="30"
-        rows="10"
-        style="width: 524px; height: 223px"
-      ></textarea>
-    </div>
+
+    <header>
+      <div id="titulo-principal">
+        <h1>Criptogracinha</h1>
+        <p id="explicacao">
+          Criptogracinha utiliza a cifra de César para criptografar<br>
+           e descriptografar mensagens.
+        </p>
+      </div>
+    </header>
+    
+    <section>
+      <div id="div-h2-mais-input">
+        <h2 id="offset-text">Deslocamento</h2>
+        <input type="number" id="offset" placeholder="Digite um número. Ex: 10" />
+      </div>
+
+      <div id="div-com-caixas-de-texto">
+        <div id="div-titulo-caixa-original">
+          <h2 class="titulo-caixas">Mensagem Original</h2>
+          <textarea
+            name=""
+            id="mensagem-original"
+            cols="30"
+            rows="10"
+            style="width: 524px; height: 223px"
+            placeholder="Digite sua mensagem original aqui"
+          ></textarea>
+        </div>
+
+        <div id="div-titulo-caixa-cifrada">
+          <h2 class="titulo-caixas">Mensagem Cifrada</h2>
+          <textarea
+            name=""
+            id="mensagem-cifrada"
+            cols="30"
+            rows="10"
+            style="width: 524px; height: 223px"
+            placeholder="Digite sua mensagem cifrada aqui"
+          ></textarea>
+        </div>
+      </div>
+  </section>
     <script src="index.js" type="module"></script>
   </body>
+
+  <footer>
+    <p>
+      Desenvolvido por Amanda Polari, encontre-me no
+      <a href="https://www.linkedin.com/in/amandapolari/" target="_blank"
+        >Linkedin</a
+      >
+    </p>
+  </footer>
 </html>

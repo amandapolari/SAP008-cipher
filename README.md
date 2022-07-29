@@ -8,7 +8,7 @@
 * [4. Como testar](#4-como-testar)
 * [5. Tecnologias utilizadas](#5-tecnologias-utilizadas)
 * [6. Processo de desenvolvimento](#6-processo-de-desenvolvimento)
-
+* [7. Veja em produção](#7-veja-em-produção)
 ***
 
 ## 1. Resumo do projeto
@@ -72,3 +72,6 @@ Esse programa foi construído com:
 ## 6. Processo de desenvolvimento
 
 [Clique aqui para saber mais](./desenvolvimento.md)
+
+## 7. Veja em produção
+[Criptogracinha](./src/index.html)

@@ -13,21 +13,14 @@
 
 ## 1. Resumo do projeto
 
-Criptogracinha utiliza a [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) para criptografar mensagens
+Criptogracinha utiliza a [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) para criptografar mensagens. O usuário precisa digitar um número para deslocamento e em seguida digita a sua mensagem na caixa mensagem original e recebe sua mensagem na caixa mensagem cifrada. 
 
-![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
+Não há restrições para digitação de mensagem, o usuário pode digitar letras maiúsculas, minúsculas, números e caracteres especiais.
 
-A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um
-tipo de cifra por substituição, em que cada letra do texto original é
-substituida por outra que se encontra há um número fixo de posições
-(deslocamento) mais a frente do mesmo alfabeto.
+A mensagem cifrada aparece simultâneamente a sua digitação, sem a necessidade de um botão para realizar a cifragem ou decifragem
 
-Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
+![imagem do site](./img/site-final.png)
 
-* Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto com cifra:  D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-* A letra A será D
-* A palavra CASA será FDVD
 
 ***
 
@@ -70,8 +63,11 @@ Esse programa foi construído com:
 ***
 
 ## 6. Processo de desenvolvimento
+Registrei algumas etapas do desenvolvimento do algoritmo do projeto:
 
 [Clique aqui para saber mais](./desenvolvimento.md)
 
 ## 7. Veja em produção
-[Criptogracinha](./src/index.html)
+O link abaixo leva até o site
+
+[Clique aqui para visualizar o site](./src/index.html)

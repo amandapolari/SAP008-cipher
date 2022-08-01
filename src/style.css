@@ -1,6 +1,5 @@
 body {
     font-family: 'Edu NSW ACT Foundation', cursive;
-    padding: 1px;
     color: #893168;
     background: linear-gradient(to right, #ffa5ab, #da627d);
 }
@@ -10,18 +9,27 @@ h1 {
 }
 
 #titulo-principal {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     color: #4a1942;
 }
 
-#explicacao {
+#section-explicacao {
+    text-align: center;
+}
+
+ #explicacao {
     display: inline;
     text-align: center;
     padding: 10px;
-    margin: 10px;
-    font-size: 25px;
+    margin: 6px;
+    font-size: 20px;
+}
+
+a {
+    color: #a53860;
+    text-decoration: none;
 }
 
 #div-h2-mais-input {
@@ -31,18 +39,19 @@ h1 {
 
 
 #offset-text {
-    font-size: 45px;
+    font-size: 30px;
     text-align: center;
     margin: 20px 10px 2px 10px;
 }
 
 
 #offset {
-    height: 50px;
-    width: 370px;
-    font-size: 30px;
+    height: 40px;
+    width: 360px;
+    font-size: 28px;
+    text-align: center;
     padding: 15px;
-    margin: 2px 10px 10px 10px;
+    margin: 5px;
     border-radius: 10px;
 }
 
@@ -52,17 +61,18 @@ h1 {
 
 #div-titulo-caixa-original, #div-titulo-caixa-cifrada {
     display: inline-block;
-    margin: 20px;
+    margin: 15px;
+    padding: 20px;
 }
 
 .titulo-caixas {
-    font-size: 45px;
-    margin: 15px;
+    font-size: 30px;
+    margin: 8px;
 }
 
 #mensagem-original, #mensagem-cifrada {
-    padding: 30px;
-    font-size: 30px;
+    padding: 25px;
+    font-size: 28px;
     resize: none;
     border-radius: 10px;
 }
@@ -75,9 +85,14 @@ h1 {
 }
 
 footer {
+    font-size: 15px;
     text-align: center;
     bottom: 10px;
     left: 10px;
+}
+
+#paragrafo-do-footer {
+    margin: 50px 20px 0px 20px;
 }
 
 a:hover {

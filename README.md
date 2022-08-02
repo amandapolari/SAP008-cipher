@@ -70,4 +70,4 @@ Registrei algumas etapas do desenvolvimento do algoritmo do projeto:
 ## 7. Veja em produção
 O link abaixo leva até o site
 
-[Clique aqui para visualizar o site](./src/index.html)
+[Clique aqui para visualizar o site](https://amandapolari.github.io/SAP008-cipher/src/index.html)

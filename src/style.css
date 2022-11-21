@@ -2,6 +2,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Mouse Memoirs", sans-serif;
+    letter-spacing: 0.15vw;
 }
 
 *::selection {
@@ -10,7 +12,6 @@
 
 /* PARA TODO CORPO */
 body {
-    font-family: "Edu NSW ACT Foundation", cursive;
     color: #893168;
     background-image: linear-gradient(to right, #ffa5ab, #da627d);
     background-attachment: fixed;
@@ -19,7 +20,8 @@ body {
 
 /* CONFIG PARA MOBILE */
 h1 {
-    font-size: 8vw;
+    font-size: 10vw;
+    letter-spacing: 1vw;
     text-shadow: 0.1em 0.1em 0.1em #ffafcc;
     font-weight: bold;
     color: #4a1942;
@@ -27,12 +29,12 @@ h1 {
 }
 
 .description {
-    font-size: 4vw;
+    font-size: 5vw;
     margin: 1vw;
 }
 
 label {
-    font-size: 4.5vw;
+    font-size: 5.5vw;
     font-weight: bold;
     margin: 5vw auto;
 }
@@ -63,15 +65,15 @@ textarea {
     font-size: 3vw;
     resize: none;
     border-radius: 15px;
-    height: 20vw;
-    width: 60vw;
+    height: 25vw;
+    width: 65vw;
 }
 
 .container-original-message,
 .container-encrypted-message,
 .container-offset {
     display: block;
-    margin: 3vw auto;
+    margin: 5vw auto;
 }
 
 footer {
@@ -89,13 +91,15 @@ a:hover {
 /* CONFIG PARA DESKTOP */
 @media screen and (min-width: 750px) {
     h1 {
-        font-size: 4vw;
+        font-size: 5vw;
+        letter-spacing: 0.7vw;
         color: #4a1942;
     }
 
     .description {
-        font-size: 1.8vw;
+        font-size: 2.3vw;
         text-align: center;
+        margin: 1vw auto;
     }
 
     .container-offset {
@@ -129,6 +133,10 @@ a:hover {
         resize: none;
         height: 10vw;
         width: 30vw;
+    }
+
+    .container-offset {
+        margin: 1.8vw auto 2.5vw;
     }
 
     .container-original-message,

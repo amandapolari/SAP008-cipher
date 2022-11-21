@@ -62,7 +62,8 @@ textarea {
     margin: 1vw auto;
     border: #450920;
     padding: 2vw;
-    font-size: 3vw;
+    font-size: 5vw;
+    text-align: center;
     resize: none;
     border-radius: 15px;
     height: 25vw;

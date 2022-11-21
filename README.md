@@ -1,7 +1,12 @@
 # Criptogracinha
+
+![imagem do site](./img/site-final.png)
+
 <p align="center">
+<span><strong>Tecnologias Utilizadas:</strong></span>
+<br>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,jest,github,git" style="height: 25px;" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,jest,github,git" style="height: 25px;"/>
   </a>
 </p>
 
@@ -18,9 +23,9 @@
 
 ## 1. Resumo do projeto
 
-O projeto *Cipher* foi o **primeiro projeto desenvolvido no bootcamp da Laboratoria**.
+ *Cipher* foi o **primeiro projeto desenvolvido no bootcamp da Laboratoria**.
 
-O seu principal objetivo era construir uma aplicação web que possa interagir com o usuário através do navegador utilizando HTML, CSS e JavaScript. Nesta aplicação, o usuário precisa digitar um offset, escrever a sua mensagem e receber uma mensagem criptografada.
+O seu principal objetivo era construir uma aplicação web que possa interagir com o usuário através do navegador utilizando HTML, CSS e JavaScript. Nesta aplicação, o usuário precisa digitar um offset, escrever seu texto e receber sua mensagem criptografada.
 
 A partir disso, **criptogracinha** utiliza a [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) para criptografar mensagens. 
 
@@ -28,8 +33,7 @@ Não há restrições para digitação de mensagem, o usuário pode digitar letr
 
 A mensagem cifrada aparece simultâneamente à sua digitação, sem a necessidade de um botão para realizar a cifragem ou decifragem
 
-![imagem do site](./img/site-final.png)
-
+Além disso, é possível copiar a mensagem criptografada, clicando no ícone de copiar, o usuário também receberá uma notificação de sucesso confirmando a cópia do texto.
 
 ***
 

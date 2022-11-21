@@ -22,13 +22,14 @@ mensagemCifrada.addEventListener("input", cifraDeCesar);
 
 
 // Botão de Copiar Mensagem
-let btn = document.querySelector('#button-copy');
+let btn = document.querySelector('#img-copy');
 btn.addEventListener('click', function() {
   let textArea = document.querySelector('#mensagem-cifrada');
   textArea.select();
   document.execCommand('copy');
 });
 
+// Função de aparecer e sumir mensagem após alguns segundos
 btn.addEventListener ('click', function () {
   document.getElementById("msgAlerta").innerHTML = "<p class='alert'>Mensagem copiada com sucesso!</p>"
     setTimeout(function(){

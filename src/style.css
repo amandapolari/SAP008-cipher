@@ -1,100 +1,144 @@
+/* RESETANDO AS CONFIGURAÇÕES */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::selection {
+    background-color: #f0a6ca;
+}
+
+/* PARA TODO CORPO */
 body {
-    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: "Edu NSW ACT Foundation", cursive;
     color: #893168;
-    background: linear-gradient(to right, #ffa5ab, #da627d);
+    background-image: linear-gradient(to right, #ffa5ab, #da627d);
+    background-attachment: fixed;
+    text-align: center;
 }
 
+/* CONFIG PARA MOBILE */
 h1 {
+    font-size: 8vw;
     text-shadow: 0.1em 0.1em 0.1em #ffafcc;
-}
-
-#titulo-principal {
-    font-size: 30px;
     font-weight: bold;
-    text-align: center;
     color: #4a1942;
+    padding: 2vw;
 }
 
-#section-explicacao {
-    text-align: center;
+.description {
+    font-size: 4vw;
+    margin: 1vw;
 }
 
- #explicacao {
-    display: inline;
-    text-align: center;
-    padding: 10px;
-    margin: 6px;
-    font-size: 20px;
+label {
+    font-size: 4.5vw;
+    font-weight: bold;
+    margin: 5vw auto;
 }
 
-a {
-    color: #a53860;
-    text-decoration: none;
-}
-
-#div-h2-mais-input {
-    text-align: center;
-    padding: 10px;
-}
-
-
-#offset-text {
-    font-size: 30px;
-    text-align: center;
-    margin: 20px 10px 2px 10px;
-}
-
-
-#offset {
-    height: 40px;
-    width: 360px;
-    font-size: 28px;
-    text-align: center;
-    padding: 15px;
-    margin: 5px;
-    border-radius: 10px;
-}
-
-#div-com-caixas-de-texto {
-    text-align:center;
-}
-
-#div-titulo-caixa-original, #div-titulo-caixa-cifrada {
-    display: inline-block;
-    margin: 15px;
-    padding: 20px;
-}
-
-.titulo-caixas {
-    font-size: 30px;
-    margin: 8px;
-}
-
-#mensagem-original, #mensagem-cifrada {
-    padding: 25px;
-    font-size: 28px;
-    resize: none;
-    border-radius: 10px;
-}
-
-#offset, textarea {
-    background: #eaeaea;
+.input-offset,
+textarea {
+    background: #ffe5ec;
     color: #a53860;
     box-shadow: 3px 5px 4px #450920;
+}
+
+.input-offset {
+    display: block;
+    margin: 0.1vw auto;
+    text-align: center;
+    height: 1.5vw;
+    width: 10vw;
+    font-size: 3vw;
+    padding: 2.5vw;
+    border-radius: 10px;
+}
+
+textarea {
+    display: block;
+    margin: 1vw auto;
     border: #450920;
+    padding: 2vw;
+    font-size: 3vw;
+    resize: none;
+    border-radius: 15px;
+    height: 20vw;
+    width: 60vw;
+}
+
+.container-original-message,
+.container-encrypted-message,
+.container-offset {
+    display: block;
+    margin: 3vw auto;
 }
 
 footer {
-    font-size: 15px;
+    bottom: 0.1vw;
+    position: fixed;
+    width: 100%;
     text-align: center;
-    bottom: 10px;
-    left: 10px;
-}
-
-#paragrafo-do-footer {
-    margin: 50px 20px 0px 20px;
+    font-size: 3vw;
 }
 
 a:hover {
     color: #ffafcc;
+}
+
+/* CONFIG PARA DESKTOP */
+@media screen and (min-width: 750px) {
+    h1 {
+        font-size: 4vw;
+        color: #4a1942;
+    }
+
+    .description {
+        font-size: 1.8vw;
+        text-align: center;
+    }
+
+    .container-offset {
+        padding: 1vw;
+    }
+
+    label {
+        font-size: 2.2vw;
+    }
+
+    .input-offset,
+    textarea {
+        color: #a53860;
+    }
+
+    .input-offset {
+        height: 2vw;
+        width: 10vw;
+        font-size: 2vw;
+        padding: 0.4vw;
+        margin: 0.1vw auto -2vw auto;
+        border-radius: 30px;
+    }
+
+    textarea {
+        border-radius: 45px;
+        margin: 0.1vw auto;
+        padding: 1.5vw;
+        font-size: 1.5vw;
+        text-align: center;
+        resize: none;
+        height: 10vw;
+        width: 30vw;
+    }
+
+    .container-original-message,
+    .container-encrypted-message {
+        display: inline-block;
+        margin: 0.5vw 2vw;
+    }
+
+    footer {
+        font-size: 1vw;
+        bottom: 0.3vw;
+    }
 }

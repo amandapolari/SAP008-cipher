@@ -19,3 +19,19 @@ function cifraDeCesar(event) {
 
 mensagemOriginal.addEventListener("input", cifraDeCesar);
 mensagemCifrada.addEventListener("input", cifraDeCesar);
+
+
+// Botão de Copiar Mensagem
+let btn = document.querySelector('#button-copy');
+btn.addEventListener('click', function() {
+  let textArea = document.querySelector('#mensagem-cifrada');
+  textArea.select();
+  document.execCommand('copy');
+});
+
+btn.addEventListener ('click', function () {
+  document.getElementById("msgAlerta").innerHTML = "<p class='alert'>Mensagem copiada com sucesso!</p>"
+    setTimeout(function(){
+    document.getElementById("msgAlerta").innerHTML="";
+  }, 2000)
+});

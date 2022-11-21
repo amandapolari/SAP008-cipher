@@ -35,8 +35,9 @@ h1 {
 
 label {
     font-size: 5.5vw;
-    font-weight: bold;
+    font-weight: lighter;
     margin: 5vw auto;
+    text-shadow: 0.05em 0.05em 0.05em #edc8d6;
 }
 
 .input-offset,
@@ -72,10 +73,43 @@ textarea {
 }
 
 .container-original-message,
-.container-encrypted-message,
 .container-offset {
     display: block;
-    margin: 5vw auto;
+    margin: 3.5vw auto;
+}
+
+.container-encrypted-message {
+    display: block;
+    margin: 3.5vw auto 0 auto;
+}
+
+.alert {
+    height: 3%;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin: 1vw;
+    font-size: 3.5vw;
+}
+
+.butto-and-span {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding: 0 15vw;
+}
+
+#button-copy {
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(180deg, #F99DA6 0%, #D96A88 47.92%, #8C356E 100%);
+    background-blend-mode: overlay;
+    border: 1.5px solid #5D2963;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 1vw;
+    margin: 1vw;
 }
 
 footer {
@@ -88,6 +122,11 @@ footer {
 
 a:hover {
     color: #ffafcc;
+}
+
+a {
+    text-decoration: none;
+    color: #c9184a;
 }
 
 /* CONFIG PARA DESKTOP */
@@ -145,6 +184,23 @@ a:hover {
     .container-encrypted-message {
         display: inline-block;
         margin: 0.5vw 2vw;
+    }
+
+    .alert {
+        margin: 0.5vw auto;
+        font-size: 1.5vw;
+    }
+
+    .butto-and-span {
+        margin: 0 auto;
+        padding: 0 15vw;
+    }
+
+    #button-copy {
+        border-radius: 30px;
+        padding: 0.6vw;
+        margin: 0.1vw;
+        font-size: 1.5vw;
     }
 
     footer {

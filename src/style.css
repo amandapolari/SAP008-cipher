@@ -44,6 +44,7 @@ textarea {
     background: #ffe5ec;
     color: #a53860;
     box-shadow: 3px 5px 4px #450920;
+    border: none;
 }
 
 .input-offset {

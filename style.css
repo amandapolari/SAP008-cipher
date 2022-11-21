@@ -1,0 +1,144 @@
+/* RESETANDO AS CONFIGURAÇÕES */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::selection {
+    background-color: #f0a6ca;
+}
+
+/* PARA TODO CORPO */
+body {
+    font-family: "Edu NSW ACT Foundation", cursive;
+    color: #893168;
+    background-image: linear-gradient(to right, #ffa5ab, #da627d);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+/* CONFIG PARA MOBILE */
+h1 {
+    font-size: 8vw;
+    text-shadow: 0.1em 0.1em 0.1em #ffafcc;
+    font-weight: bold;
+    color: #4a1942;
+    padding: 2vw;
+}
+
+.description {
+    font-size: 4vw;
+    margin: 1vw;
+}
+
+label {
+    font-size: 4.5vw;
+    font-weight: bold;
+    margin: 5vw auto;
+}
+
+.input-offset,
+textarea {
+    background: #ffe5ec;
+    color: #a53860;
+    box-shadow: 3px 5px 4px #450920;
+}
+
+.input-offset {
+    display: block;
+    margin: 0.1vw auto;
+    text-align: center;
+    height: 1.5vw;
+    width: 10vw;
+    font-size: 3vw;
+    padding: 2.5vw;
+    border-radius: 10px;
+}
+
+textarea {
+    display: block;
+    margin: 1vw auto;
+    border: #450920;
+    padding: 2vw;
+    font-size: 3vw;
+    resize: none;
+    border-radius: 15px;
+    height: 20vw;
+    width: 60vw;
+}
+
+.container-original-message,
+.container-encrypted-message,
+.container-offset {
+    display: block;
+    margin: 3vw auto;
+}
+
+footer {
+    bottom: 0.1vw;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+}
+
+a:hover {
+    color: #ffafcc;
+}
+
+/* CONFIG PARA DESKTOP */
+@media screen and (min-width: 750px) {
+    h1 {
+        font-size: 4vw;
+        color: #4a1942;
+    }
+
+    .description {
+        font-size: 1.8vw;
+        text-align: center;
+    }
+
+    .container-offset {
+        padding: 1vw;
+    }
+
+    label {
+        font-size: 2.2vw;
+    }
+
+    .input-offset,
+    textarea {
+        color: #a53860;
+    }
+
+    .input-offset {
+        height: 2vw;
+        width: 10vw;
+        font-size: 2vw;
+        padding: 0.4vw;
+        margin: 0.1vw auto -2vw auto;
+        border-radius: 30px;
+    }
+
+    textarea {
+        border-radius: 45px;
+        margin: 0.1vw auto;
+        padding: 1.5vw;
+        font-size: 1.5vw;
+        text-align: center;
+        resize: none;
+        height: 10vw;
+        width: 30vw;
+    }
+
+    .container-original-message,
+    .container-encrypted-message {
+        display: inline-block;
+        margin: 0.5vw 2vw;
+    }
+
+    footer {
+        font-size: 1vw;
+        bottom: 0.3vw;
+    }
+}

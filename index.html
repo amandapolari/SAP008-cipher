@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criptogracinha</title>
+    <link rel="icon" href="./icon/icon-criptografia.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Criptogracinha</h1>
+    </header>
+    <p class="description">
+      Bem-vindo(a) !
+      <br>
+      Escolha um número de deslocamento, <br>
+      digite seu texto e receba uma mensagem criptografada.
+    </p>
+    <main>
+      <div class="container-offset">
+        <label for="offset">Deslocamento</label>
+        <input type="number" class="input-offset" id="offset" placeholder="Ex: 10"/>
+      </div>
+      <div class="container-box">
+        <div class="container-original-message">
+          <label>Mensagem Original</label>
+          <textarea
+            id="mensagem-original"
+            placeholder="Digite sua mensagem original aqui"
+          ></textarea>
+        </div>
+        <div class="container-encrypted-message">
+          <label>Mensagem Cifrada</label>
+          <textarea
+            id="mensagem-cifrada"
+            placeholder="Digite sua mensagem cifrada aqui"
+          ></textarea>
+        </div>
+      </div>
+    </main>
+  </body>
+  <footer>
+      Desenvolvido por Amanda Polari, encontre-me no <a href="https://www.linkedin.com/in/amandapolari/" target="_blank">Linkedin</a>
+  </footer>
+  <script src="index.js" type="module"></script>
+</html>

@@ -1,6 +1,6 @@
 # Criptogracinha
 
-![imagem do site](./img/site-final.png)
+![imagem do site](./img/git-criptogracinha.gif)
 
 <p align="center">
 <span><strong>Tecnologias Utilizadas:</strong></span>
@@ -27,11 +27,11 @@
 
 O seu principal objetivo era construir uma aplicação web que possa interagir com o usuário através do navegador utilizando HTML, CSS e JavaScript. Nesta aplicação, o usuário precisa digitar um offset, escrever seu texto e receber sua mensagem criptografada.
 
-A partir disso, **criptogracinha** utiliza a [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) para criptografar mensagens. 
+A partir disso, **criptogracinha** utiliza a [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) para criptografar e descriptografar mensagens. 
 
 Não há restrições para digitação de mensagem, o usuário pode digitar letras maiúsculas, minúsculas, números e caracteres especiais.
 
-A mensagem cifrada aparece simultâneamente à sua digitação, sem a necessidade de um botão para realizar a cifragem ou decifragem
+A mensagem cifrada aparece simultâneamente à sua digitação, sem a necessidade de um botão para realizar a cifragem ou decifragem.
 
 Além disso, é possível copiar a mensagem criptografada, clicando no ícone de copiar, o usuário também receberá uma notificação de sucesso confirmando a cópia do texto.
 

@@ -19,6 +19,11 @@ body {
 }
 
 /* CONFIG PARA MOBILE */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 h1 {
     font-size: 10vw;
     letter-spacing: 1vw;
@@ -27,9 +32,9 @@ h1 {
     color: #4a1942;
     padding: 2vw;
 }
-/* .icon-title {
+.icon-title {
     width: 10vw;
-} */
+}
 
 .description {
     font-size: 5vw;
@@ -127,10 +132,18 @@ a {
 
 /* CONFIG PARA DESKTOP */
 @media screen and (min-width: 750px) {
+    /* header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
     h1 {
         font-size: 5vw;
         letter-spacing: 0.7vw;
         color: #4a1942;
+    }
+    .icon-title {
+        width: 6vw;
     }
 
     .description {

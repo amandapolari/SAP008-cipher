@@ -1,7 +1,9 @@
 # Criptogracinha
+<div align="center">
 
 ![imagem do site](./img/gif-super-completo.gif)
 
+</div>
 <p align="center">
 <span><strong>Tecnologias Utilizadas:</strong></span>
 <br>

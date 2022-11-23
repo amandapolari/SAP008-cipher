@@ -1,6 +1,6 @@
 # Criptogracinha
 
-![imagem do site](./img/git-criptogracinha.gif)
+![imagem do site](./img/gif-super-completo.gif)
 
 <p align="center">
 <span><strong>Tecnologias Utilizadas:</strong></span>

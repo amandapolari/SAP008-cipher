@@ -1,4 +1,4 @@
-# Criptogracinha
+<h1 align="center"> Criptogracinha </h1>
 <div align="center">
 
 ![imagem do site](./img/gif-super-completo.gif)
@@ -35,7 +35,7 @@ Não há restrições para digitação de mensagem, o usuário pode digitar letr
 
 A mensagem cifrada aparece simultâneamente à sua digitação, sem a necessidade de um botão para realizar a cifragem ou decifragem.
 
-Além disso, é possível copiar a mensagem criptografada, clicando no ícone de copiar, o usuário também receberá uma notificação de sucesso confirmando a cópia do texto.
+Além disso a aplicação copia automaticamente o resultado, ou seja, se vc digitar uma mensagem na caixa 'mensagem original' a sua mensagem cifrada já fica copiada para a área de transferência, o inverso também é válido. O usuário também receberá uma notificação de sucesso confirmando a cópia do texto.
 
 ***
 
